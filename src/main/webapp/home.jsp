@@ -24,8 +24,9 @@
 	<div class='header'>
 		<h1 class='title'>Altona Music Store</h1>
 		
-		<a class='view_cart' href='view_cart.jsp'>View Cart</a>
 		<span class='current_user'>User:  <%=current_user%></span>
+		<a class='logout' href='login.jsp'>Log Out</a>
+		<a class='view_cart' href='view_cart.jsp'>View Cart</a>
 		<span class='items_in_cart'>Items In Cart:  <%=items_in_cart%></span>
 	</div>
 	

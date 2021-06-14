@@ -52,10 +52,7 @@
 			response.sendRedirect("login.jsp");
 		}
 		String sql1 = "select item_id, item_name, item_price, count(item_id) as 'quantity' from cart group by item_id, username having count(item_id) > 0 and username='" + username +"'";
-		String sql2 = "set global sql_mode=(select replace(@@sql_mode,'ONLY_FULL_GROUP_BY',''))";
 		
-		//String sql2 = "update member set address=null, city=null, state=null, zip_code=null where username='" + username +"'";
-		ResultSet rs2 = statement.executeQuery(sql2);
 		ResultSet rs1 = statement.executeQuery(sql1);
 		
 		

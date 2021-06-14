@@ -17,13 +17,14 @@ body {
 .title {grid-area: title;}
 .view_cart {grid-area: view_cart;}
 .current_user {grid-area: current_user;}
+.logout {grid-area: logout;}
 .items_in_cart {grid-area: items_in_cart;}
 
 .header {
 	display: inline-grid;
 	grid-template-areas: 
 		'current_user title title title title title title title view_cart' 
-		'current_user title title title title title title title items_in_cart';
+		'logout title title title title title title title items_in_cart';
 	width: 100%;
 	
 	background-color: #336b87;
@@ -34,12 +35,6 @@ body {
 }
 
 h1 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -57,11 +52,13 @@ a:hover {
 	color: #90afc5;
 }
 
-.current_user, .items_in_cart {
+.current_user, .items_in_cart, .logout, .view_cart {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
+
 
 /*-----------------------ITEMS-----------------------*/
 
