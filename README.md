@@ -13,7 +13,9 @@ Before the users can peruse our inventory, they must first log in to their accou
 so that their carts can be saved on our server for when they decide they want to continue shopping.  Altona Music Store runs on Apache Tomcat v9.0.
 
 ### Technologies
--JSP Framework
--MySQL Database 
+- JSP Framework
+- MySQL Database 
+
+---
 
 
