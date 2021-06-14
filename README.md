@@ -18,4 +18,9 @@ so that their carts can be saved on our server for when they decide they want to
 
 ---
 
+## Author Info
+- LinkedIn - https://www.linkedin.com/in/noah-lambert-5b73121a4/
+- Website - www.noah-lambert.com
+
+
 
